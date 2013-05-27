@@ -1,0 +1,316 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"repo",
+				"repositories"
+			],
+			[
+				"rep",
+				"repoTemplate"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 438,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/duncan/j/bogart-base/config/package.json",
+			"settings":
+			{
+				"buffer_size": 804,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 117.0,
+		"selected_items":
+		[
+			[
+				"rub",
+				"Format: Ruby"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 139.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/duncan/j/bogart-gen/lib/apis/auctionApi.js",
+		"/home/duncan/j/bogart-gen/README.md",
+		"/home/duncan/j/gen/package.json",
+		"/home/duncan/j/gen/makeApi.js",
+		"/home/duncan/j/gen/app.js",
+		"/home/duncan/j/gen/makeRepo.js",
+		"/home/duncan/j/givechat/web/app.js",
+		"/home/duncan/j/gen/lib/apis/auctionApi.js",
+		"/home/duncan/j/gen/lib/repositories/auctionRepo.js",
+		"/home/duncan/j/gen/workspace.js",
+		"/home/duncan/j/gen/testApi.js",
+		"/home/duncan/j/gen/testRepo.js",
+		"/home/duncan/j/givechat/web/lib/apis/auctionApi.js",
+		"/home/duncan/j/givechat/web/lib/repositories/mailRepo.js",
+		"/home/duncan/j/givechat/web/lib/models/transaction.js",
+		"/home/duncan/j/givechat/web/lib/models/auction.js",
+		"/home/duncan/j/givechat/web/lib/repositories/auctionRepo.js",
+		"/home/duncan/j/wb-user/lib/repositories/mailRepo.js",
+		"/home/duncan/j/gen/components/repo.js",
+		"/home/duncan/j/wb-user/package.json",
+		"/home/duncan/j/gen/fs.writeFile('message.txt', 'Hello Node', function",
+		"/home/duncan/j/givechat/web/settings.js",
+		"/home/duncan/j/wb-user/settings.js",
+		"/home/duncan/.rvm/gems/ruby-2.0.0-p195/gems/cramp-0.15.1/lib/cramp/callbacks.rb",
+		"/home/duncan/.rvm/gems/ruby-2.0.0-p195/gems/cramp-0.15.1/lib/cramp/abstract.rb",
+		"/home/duncan/r/stn/unicorn.rb",
+		"/home/duncan/r/stn/config.ru",
+		"/home/duncan/r/stn/.env",
+		"/home/duncan/r/stn/Procfile",
+		"/home/duncan/r/stn/config/unicorn.rb",
+		"/home/duncan/r/stn/config/config.ru"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"Api",
+			"API",
+			"fs.writeFile('lib/repositories/' + modelName + 'Repo.js', genString, function (err) {\n              if (err) {\n                console.log(\"Error\".red + \" generating \" + modelName + \" Repo:\\n\\n\" + err)\n                throw err;\n              }\n              \n              console.log(modelName.green + \" Repo successfully generated!\".green)",
+			"  console.log(modelName.green + \" Repo successfully generated!\".green)",
+			"fs.writeFile('lib/repositories/' + modelName + 'Repo.js', genString, function (err) {\n              if (err) {\n                console.log(\"Error\".red + \" generating \" + modelName + \" Repo:\\n\\n\" + err)\n                throw err;\n              }\n              \n              console.log(modelName.green + \" Repo successfully generated!\".green)\n            })",
+			"API succe",
+			"modelName + \" Repo successfully gen",
+			"modelName + \" Rep",
+			"generated!",
+			"Error g",
+			"readdir",
+			"Repo",
+			"Repo.js",
+			"repositories",
+			"apis",
+			"repositories",
+			"API",
+			"Api",
+			"apis",
+			"repositories",
+			"\"",
+			"repo",
+			"auction",
+			"\"",
+			"Auction",
+			"auction",
+			"api",
+			"repo",
+			"  \\t",
+			"      \\t",
+			"\\t",
+			"repoTemplate",
+			"auction",
+			"del",
+			"auction",
+			"\"",
+			"__setId",
+			"modelName",
+			"\"",
+			"unicorn"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"repo",
+			"Api",
+			"stat",
+			"API",
+			"Api.js",
+			"apis",
+			"repositories",
+			"'",
+			"\" + modelName + \"",
+			"'",
+			"\" + modelName + \"",
+			"\\t",
+			"",
+			"template",
+			"\" + modelName + \"",
+			"'"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "package.json",
+					"settings":
+					{
+						"buffer_size": 438,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								431,
+								431
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/duncan/j/bogart-base/config/package.json",
+					"settings":
+					{
+						"buffer_size": 804,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/home/duncan/j/bogart-base/app.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}
