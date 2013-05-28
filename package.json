@@ -2,23 +2,21 @@
   "name": "bogart-gen",
   "version": "0.0.1",
   "author": "Duncan Smith",
+  "email": "duncan.smith@whiteboard-it.com",
   "description": "A suite of Rails-style generators for the awesome Bogart framework.  Work in progress.",
   "homepage": "https://github.com/notduncansmith/bogart-gen",
   "license": "MIT",
-  "repository" :
-  { "type" : "git",
-    "url" : "git://github.com/notduncansmith/bogart-gen.git"
+  "repository":
+  { "type": "git",
+    "url": "git://github.com/notduncansmith/bogart-gen.git"
   },
-  "email": "duncan.smith@whiteboard-it.com",
   "index":"./app.js",
-  "main": "./app.js",
-  "directories": { "lib": "./lib" },	
+  "main": "./app.js",	
   "dependencies": {
   	"commander": "1.1.1",
     "colors":"0.6.0"
   },
   "bin": {
-      "bogart generate": "app.js",
-      "bogart g": "app.js"
+      "bogart": "app.js"
   }
 }

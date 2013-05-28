@@ -19,15 +19,39 @@
 			"file": "package.json",
 			"settings":
 			{
-				"buffer_size": 438,
+				"buffer_size": 567,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/home/duncan/j/bogart-base/config/package.json",
+			"file": "makeApi.js",
 			"settings":
 			{
-				"buffer_size": 804,
+				"buffer_size": 828,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "makeRepo.js",
+			"settings":
+			{
+				"buffer_size": 2563,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app.js",
+			"settings":
+			{
+				"buffer_size": 1078,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 1996,
 				"line_ending": "Unix"
 			}
 		}
@@ -35,7 +59,7 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 117.0,
+		"height": 392.0,
 		"selected_items":
 		[
 			[
@@ -51,7 +75,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 449.0
+		"width": 575.0
 	},
 	"console":
 	{
@@ -68,6 +92,11 @@
 	},
 	"file_history":
 	[
+		"/home/duncan/j/bogart-gen/templates/api.js",
+		"/home/duncan/j/bogart-gen/templates/repo.js",
+		"/home/duncan/j/givechat/web/lib/apis/auctionApi.js",
+		"/home/duncan/j/givechat/web/lib/repositories/auctionRepo.js",
+		"/home/duncan/j/bogart-base/config/package.json",
 		"/home/duncan/j/bogart-gen/lib/apis/auctionApi.js",
 		"/home/duncan/j/bogart-gen/README.md",
 		"/home/duncan/j/gen/package.json",
@@ -80,11 +109,9 @@
 		"/home/duncan/j/gen/workspace.js",
 		"/home/duncan/j/gen/testApi.js",
 		"/home/duncan/j/gen/testRepo.js",
-		"/home/duncan/j/givechat/web/lib/apis/auctionApi.js",
 		"/home/duncan/j/givechat/web/lib/repositories/mailRepo.js",
 		"/home/duncan/j/givechat/web/lib/models/transaction.js",
 		"/home/duncan/j/givechat/web/lib/models/auction.js",
-		"/home/duncan/j/givechat/web/lib/repositories/auctionRepo.js",
 		"/home/duncan/j/wb-user/lib/repositories/mailRepo.js",
 		"/home/duncan/j/gen/components/repo.js",
 		"/home/duncan/j/wb-user/package.json",
@@ -116,6 +143,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"fs.writeFile('lib/apis/' + modelName + 'Api.js', genString, function (err) {\n              if (err) {\n                console.log(\"Error generating \" + modelName + \" API:\\n\\n\" + err)\n                throw err;\n              }\n              \n              console.log(modelName.green + \" API successfully generated!\".green)",
 			"Api",
 			"API",
 			"fs.writeFile('lib/repositories/' + modelName + 'Repo.js', genString, function (err) {\n              if (err) {\n                console.log(\"Error\".red + \" generating \" + modelName + \" Repo:\\n\\n\" + err)\n                throw err;\n              }\n              \n              console.log(modelName.green + \" Repo successfully generated!\".green)",
@@ -189,7 +217,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 4,
 			"sheets":
 			[
 				{
@@ -197,15 +225,15 @@
 					"file": "package.json",
 					"settings":
 					{
-						"buffer_size": 438,
+						"buffer_size": 567,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								431,
-								431
+								453,
+								453
 							]
 						],
 						"settings":
@@ -222,28 +250,112 @@
 				},
 				{
 					"buffer": 1,
-					"file": "/home/duncan/j/bogart-base/config/package.json",
+					"file": "makeApi.js",
 					"settings":
 					{
-						"buffer_size": 804,
+						"buffer_size": 828,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								544,
+								544
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JSON.tmLanguage",
-							"tab_size": 4,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "makeRepo.js",
+					"settings":
+					{
+						"buffer_size": 2563,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								180,
+								180
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app.js",
+					"settings":
+					{
+						"buffer_size": 1078,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1078,
+								1078
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 8.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "README.md",
+					"settings":
+					{
+						"buffer_size": 1996,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								888,
+								888
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 247.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
