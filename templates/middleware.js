@@ -9,9 +9,9 @@ function intercept(pathPattern, nextApp) { \n \
 		if(!pathPattern.test(req.pathInfo)) { //Make sure you intercept the correct request(s) \n \
 			return nextApp(req); \n \
 		} \n \
-
+\n \
 		//Do middleware-y stuff here \n \
-
+\n \
 		return nextApp(req); \n \
 	}		 \n \
 } \n \

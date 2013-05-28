@@ -43,16 +43,16 @@
 			"file": "app.js",
 			"settings":
 			{
-				"buffer_size": 1078,
-				"line_ending": "Unix"
+				"buffer_size": 1076,
+				"line_ending": "Windows"
 			}
 		},
 		{
 			"file": "README.md",
 			"settings":
 			{
-				"buffer_size": 1996,
-				"line_ending": "Unix"
+				"buffer_size": 3104,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -217,7 +217,7 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -309,15 +309,15 @@
 					"file": "app.js",
 					"settings":
 					{
-						"buffer_size": 1078,
+						"buffer_size": 1076,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1078,
-								1078
+								386,
+								386
 							]
 						],
 						"settings":
@@ -337,15 +337,15 @@
 					"file": "README.md",
 					"settings":
 					{
-						"buffer_size": 1996,
+						"buffer_size": 3104,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								888,
-								888
+								2900,
+								2900
 							]
 						],
 						"settings":
@@ -355,7 +355,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 247.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

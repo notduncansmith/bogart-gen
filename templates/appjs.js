@@ -2,7 +2,7 @@ module.exports = function() {
 return "\
 var bogart = require('bogart') \n \
   , router = bogart.router() \n \
-  , path   = require('path') \n
+  , path   = require('path') \n \
   , mysql  = require('mysql') \n \
   , util   = require('./lib/util').Util \n \
   , settings = require('./config/settings').Settings \n \

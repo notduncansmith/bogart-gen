@@ -20,34 +20,63 @@ npm install -g bogart-gen
 
   appName
   |
+  
   |__ lib
+  
   |  |__ apis
+  
   |  |__ repositories
+  
   |  |__ views
+  
   |  |  |__ layout.html
+  
   |  |
+  
   |  |__ routers
+  
   |  |  |__ hello.js
+  
   |  |  |__ middleware.js
+  
   |  |  |__ static-content.js
+  
   |  |
+  
   |  |__ util.js
+  
   |
+  
   |__ public
+  
   |  |__ images
+  
   |  |__ javascripts
+  
   |  |__ stylesheets
+  
   |  
+  
   |__ db
+  
   |  |__ migrations
+  
   |  |__ schema.sql
+  
   |
+  
   |__ config
+  
   |  |__ settings.js
+  
   |
+  
   |__ Readme.md
+  
   |__ app.js
+  
   |__ package.json
+  
 
 ### Generate a repository
   Repositories are the database abstraction layer of a Bogart application.  Currently, bogart-gen only supports MySQL.  Repos generated with bogart-gen will contain a basic CRUD with five functions:
