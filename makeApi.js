@@ -4,7 +4,7 @@ var fs = require('fs')
   , path = require('path');
 
 exports.ApiMaker = {
-	make: function (modelName, lite) {
+	make: function (modelName, lite, curdir) {
     var genString = "";
     var template = templater(modelName);
 
@@ -16,7 +16,7 @@ exports.ApiMaker = {
       genString += template.exportClose;
     }
 
-    fs.writeFile(path.join(__dirname, 'lib', 'apis', modelName + 'Api.js'), genString, function (err) {
+    fs.writeFile(path.join(curdir, 'lib', 'apis', modelName + 'Api.js'), genString, function (err) {
       if (err) {
         console.log("Error generating " + modelName + " API:\n\n" + err);
         throw err;

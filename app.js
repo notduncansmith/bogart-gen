@@ -17,17 +17,17 @@ program
   .action(function(){
     if (program.repo) {
       if (program.lite) {
-        repo.make(program.repo, true);
+        repo.make(program.repo, true, process.cwd());
       } else {
-        repo.make(program.repo);
+        repo.make(program.repo, false, process.cwd());
       }
     }
 
     if (program.api) {
       if (program.lite) {
-        api.make(program.api, true);
+        api.make(program.api, true, process.cwd());
       } else {
-        api.make(program.api);
+        api.make(program.api, false, process.cwd());
       }
     }
   });
@@ -36,7 +36,7 @@ program
   .command('new')
   .description('Scaffold a new Bogart app')
   .action(function(){
-    app.make(process.argv[3]);
+    app.make(process.argv[3], false, process.cwd());
   });
 
 program.parse(process.argv);

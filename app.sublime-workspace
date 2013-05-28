@@ -54,6 +54,22 @@
 				"buffer_size": 3104,
 				"line_ending": "Windows"
 			}
+		},
+		{
+			"file": "templates/appjs.js",
+			"settings":
+			{
+				"buffer_size": 1185,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "templates/middleware.js",
+			"settings":
+			{
+				"buffer_size": 473,
+				"line_ending": "Windows"
+			}
 		}
 	],
 	"build_system": "",
@@ -92,6 +108,8 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Admin/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/working/bogart-gen/templates/app.js",
 		"/home/duncan/j/bogart-gen/templates/api.js",
 		"/home/duncan/j/bogart-gen/templates/repo.js",
 		"/home/duncan/j/givechat/web/lib/apis/auctionApi.js",
@@ -143,6 +161,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"\\n",
 			"fs.writeFile('lib/apis/' + modelName + 'Api.js', genString, function (err) {\n              if (err) {\n                console.log(\"Error generating \" + modelName + \" API:\\n\\n\" + err)\n                throw err;\n              }\n              \n              console.log(modelName.green + \" API successfully generated!\".green)",
 			"Api",
 			"API",
@@ -217,7 +236,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 6,
 			"sheets":
 			[
 				{
@@ -288,8 +307,8 @@
 						"selection":
 						[
 							[
-								180,
-								180
+								874,
+								874
 							]
 						],
 						"settings":
@@ -316,8 +335,8 @@
 						"selection":
 						[
 							[
-								386,
-								386
+								1076,
+								1076
 							]
 						],
 						"settings":
@@ -351,6 +370,62 @@
 						"settings":
 						{
 							"syntax": "Packages/Markdown/Markdown.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "templates/appjs.js",
+					"settings":
+					{
+						"buffer_size": 1185,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								143,
+								143
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "templates/middleware.js",
+					"settings":
+					{
+						"buffer_size": 473,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								419,
+								419
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},

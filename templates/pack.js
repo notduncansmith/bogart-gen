@@ -14,7 +14,7 @@ module.exports = function(appName) {
       "uuid" : "=1.4.0", \n \
       "underscore": ">0.0.0", \n \
       "qs" : "=0.5.6", \n \
-      "repository": ">=0.1.0", \n \
+      "repository": ">=0.1.0" \n \
   }, \n \
 \n \
   "devDependencies": { \n \

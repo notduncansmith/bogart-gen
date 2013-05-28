@@ -3,7 +3,7 @@ var fs = require('fs')
   , templater = require('./templates/repo');
 
 exports.RepoMaker = {
-	make: function (modelName, lite) {
+	make: function (modelName, lite, curdir) {
     var genString = ""
       , template = templater(modelName);
 
@@ -16,7 +16,7 @@ exports.RepoMaker = {
       genString += template.extendClose;
     }
     
-    if (!fs.stat(__dirname + '/lib'))
+    if (!fs.stat(curdir + '/lib'))
     {
       console.log('lib directory not found, creating...'.yellow)
       fs.mkdir('lib', function (er) {
