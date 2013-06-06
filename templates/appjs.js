@@ -22,10 +22,8 @@ app.use(function (nextApp) { \n\
   } \n\
 }); \n\
  \n\
-//Bring in the routes \n\
-fs.readdirSync('./lib/routers').forEach(function(file) { \n\
-  require('./lib/routers/' + file)(router,connection); \n\
-}); \n\
+require('./lib/controllers'); \n\
+//require('./lib/accessors')  uncomment this line if you want to use accessors \n\
  \n\
 app.use(bogart.batteries); //Life is better with batteries \n\
  \n\

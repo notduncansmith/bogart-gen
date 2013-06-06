@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"prot",
+				"prototype"
+			],
+			[
+				"pro",
+				"prototype"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
 				"repo",
 				"repositories"
 			],
@@ -15,62 +27,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "package.json",
-			"settings":
-			{
-				"buffer_size": 567,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "makeApi.js",
-			"settings":
-			{
-				"buffer_size": 828,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "makeRepo.js",
-			"settings":
-			{
-				"buffer_size": 2563,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app.js",
-			"settings":
-			{
-				"buffer_size": 1076,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "README.md",
-			"settings":
-			{
-				"buffer_size": 3104,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "templates/appjs.js",
-			"settings":
-			{
-				"buffer_size": 1185,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "templates/middleware.js",
-			"settings":
-			{
-				"buffer_size": 473,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -108,20 +64,65 @@
 	},
 	"file_history":
 	[
-		"/C/Users/Admin/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
-		"/C/working/bogart-gen/templates/app.js",
-		"/home/duncan/j/bogart-gen/templates/api.js",
-		"/home/duncan/j/bogart-gen/templates/repo.js",
-		"/home/duncan/j/givechat/web/lib/apis/auctionApi.js",
+		"/home/duncan/j/test/README.md",
+		"/home/duncan/j/troll/app.js",
+		"/home/duncan/j/cb.js",
+		"/home/duncan/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
+		"/home/duncan/j/troll/lib/controllers/hello.js",
+		"/home/duncan/j/test/views/home/index.ejs",
+		"/home/duncan/j/test/config/application.js",
+		"/home/duncan/j/troll/Readme.md",
+		"/home/duncan/j/test/Procfile",
+		"/home/duncan/j/test/app.js",
+		"/home/duncan/j/bogart-gen/app.js",
+		"/home/duncan/j/bogart-gen/makeController.js",
+		"/home/duncan/j/bogart-gen/makeApp.js",
+		"/home/duncan/j/scrivener/app.js",
+		"/home/duncan/j/bogart-gen/node_modules/scrivener/app.js",
+		"/home/duncan/j/troll/lib/controllers/index.js",
+		"/home/duncan/j/troll/lib/controllers/ohai.js",
+		"/home/duncan/j/bogart-gen/templates/controller.js",
+		"/home/duncan/j/bogart-gen/templates/accessor.js",
+		"/home/duncan/j/bogart-gen/package.json",
+		"/home/duncan/j/troll/lib/controllers/hiworld.js",
+		"/home/duncan/j/bogart-gen/makeAccessor.js",
+		"/home/duncan/j/ohai/lib/controllers/hello.js",
+		"/home/duncan/j/ohai/lib/controllers/index.js",
+		"/home/duncan/j/ohai/app.js",
+		"/home/duncan/j/scrivener/package.json",
+		"/home/duncan/j/scrivener/scrivener.js",
+		"/home/duncan/j/bogart-gen/scrivener.js",
+		"/home/duncan/j/ohai/package.json",
+		"/home/duncan/j/lol/lib/accessors/index.js",
+		"/home/duncan/j/bogart-gen/templates/app.js",
+		"/home/duncan/j/lol/lib/controllers/index.js",
+		"/home/duncan/j/bogart-gen/templates/controllerIndex.js",
+		"/home/duncan/j/bogart-gen/templates/accessorIndex.js",
+		"/home/duncan/j/bogart-gen/templates/appjs.js",
+		"/home/duncan/j/lol/app.js",
+		"/home/duncan/j/lol/lib/controllers/goodbye.js",
+		"/home/duncan/j/lol/lib/controllers/static-content.js",
+		"/home/duncan/j/lol/lib/controllers/hello.js",
+		"/home/duncan/j/wb-user/main.js",
+		"/home/duncan/j/givechat/web/app.js",
+		"/home/duncan/j/givechat/web/lib/apis/categoryApi.js",
 		"/home/duncan/j/givechat/web/lib/repositories/auctionRepo.js",
+		"/home/duncan/j/bogart-gen/templates/repo.js",
+		"/home/duncan/j/givechat/web/lib/repositories/repo.js",
+		"/home/duncan/j/bogart-gen/templates/middleware.js",
+		"/home/duncan/j/bogart-gen/templates/util.js",
+		"/home/duncan/j/bogart-base/lib/util.js",
+		"/home/duncan/j/bogart-gen/makeRepo.js",
+		"/home/duncan/j/bogart-gen/makeApi.js",
+		"/home/duncan/j/bogart-gen/README.md",
+		"/home/duncan/j/bogart-gen/templates/api.js",
+		"/home/duncan/j/givechat/web/lib/apis/auctionApi.js",
 		"/home/duncan/j/bogart-base/config/package.json",
 		"/home/duncan/j/bogart-gen/lib/apis/auctionApi.js",
-		"/home/duncan/j/bogart-gen/README.md",
 		"/home/duncan/j/gen/package.json",
 		"/home/duncan/j/gen/makeApi.js",
 		"/home/duncan/j/gen/app.js",
 		"/home/duncan/j/gen/makeRepo.js",
-		"/home/duncan/j/givechat/web/app.js",
 		"/home/duncan/j/gen/lib/apis/auctionApi.js",
 		"/home/duncan/j/gen/lib/repositories/auctionRepo.js",
 		"/home/duncan/j/gen/workspace.js",
@@ -154,6 +155,7 @@
 		"height": 0.0,
 		"where_history":
 		[
+			""
 		]
 	},
 	"find_state":
@@ -161,7 +163,48 @@
 		"case_sensitive": true,
 		"find_history":
 		[
-			"\\n",
+			"bar",
+			"ion(",
+			"console.log",
+			", process.cwd()",
+			"real",
+			"Source",
+			"source",
+			"filePath",
+			"realPath",
+			"Accessor",
+			"Controller",
+			"controllers",
+			"if (filePath instanceof Array) {\n	    var realPath = path.join(dir, appName, path.join(filePath));\n	  } else {\n	    var realPath = path.join(dir, appName, filePath);\n	  }",
+			"instanceOf",
+			"Controller",
+			"controllers",
+			"\"",
+			"/",
+			"routers",
+			"controllers",
+			"\\t",
+			"API",
+			"/api/",
+			"\"",
+			"yellow",
+			"write",
+			"mkDir",
+			":",
+			"function ",
+			"curdir",
+			"]",
+			"[",
+			"path.join(",
+			"fs.mkdir(path.join(curdir, appName, ",
+			"mkDir(",
+			"fs.mkdir(path.join(curdir, appName, ",
+			"write(",
+			"fs.writeFile(path.join(curdir, appName, ",
+			"api",
+			"repo",
+			"\"",
+			"/templates",
 			"fs.writeFile('lib/apis/' + modelName + 'Api.js', genString, function (err) {\n              if (err) {\n                console.log(\"Error generating \" + modelName + \" API:\\n\\n\" + err)\n                throw err;\n              }\n              \n              console.log(modelName.green + \" API successfully generated!\".green)",
 			"Api",
 			"API",
@@ -205,11 +248,26 @@
 			"unicorn"
 		],
 		"highlight": true,
-		"in_selection": false,
+		"in_selection": true,
 		"preserve_case": false,
 		"regex": false,
 		"replace_history":
 		[
+			"var realPath = path.join(dir, appName, filePath);",
+			"instanceof",
+			"'",
+			";",
+			"controllers",
+			"  ",
+			"a",
+			"",
+			"'",
+			"s.write",
+			"s.mkDir",
+			"dir",
+			"mkDir(",
+			"write(",
+			"'",
 			"repo",
 			"Api",
 			"stat",
@@ -228,7 +286,7 @@
 			"'"
 		],
 		"reverse": false,
-		"show_context": true,
+		"show_context": false,
 		"use_buffer2": true,
 		"whole_word": false,
 		"wrap": true
@@ -236,205 +294,8 @@
 	"groups":
 	[
 		{
-			"selected": 6,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "package.json",
-					"settings":
-					{
-						"buffer_size": 567,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								453,
-								453
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "makeApi.js",
-					"settings":
-					{
-						"buffer_size": 828,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								544,
-								544
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "makeRepo.js",
-					"settings":
-					{
-						"buffer_size": 2563,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								874,
-								874
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "app.js",
-					"settings":
-					{
-						"buffer_size": 1076,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1076,
-								1076
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 8.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "README.md",
-					"settings":
-					{
-						"buffer_size": 3104,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2900,
-								2900
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "templates/appjs.js",
-					"settings":
-					{
-						"buffer_size": 1185,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								143,
-								143
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "templates/middleware.js",
-					"settings":
-					{
-						"buffer_size": 473,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								419,
-								419
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],

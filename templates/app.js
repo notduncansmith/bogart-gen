@@ -4,18 +4,20 @@ var settings = require('../templates/settings')()
   , hello = require('../templates/hello')()
   , appjs = require('../templates/appjs')()
   , pack = require('../templates/pack')
-  , staticContent = require('../templates/static-content')();
+  , staticContent = require('../templates/static-content')()
+  , controller = require('../templates/controllerIndex')()
+  , accessor = require('../templates/accessorIndex')();
 
 module.exports = function (appName) {
-  console.log(util);
-  
 	return {
-      util: util,
-      middleware: middleware,
-      settings: settings,
-      app: appjs,
-      pack: pack(appName),
-      staticContent: staticContent,
-      hello: hello
-    }
+    util: util,
+    middleware: middleware,
+    settings: settings,
+    app: appjs,
+    pack: pack(appName),
+    staticContent: staticContent,
+    hello: hello,
+    controller: controller,
+    accessor: accessor
+  }
 }
